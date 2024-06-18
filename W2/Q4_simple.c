@@ -12,7 +12,8 @@ int main(void) {
     y = x * x;
 
     printf("%d", y);
-    printf('\n');
 
+    printf("\n");
+    
     return 0;
 }

@@ -3,24 +3,22 @@
 
 int main(void) {
     // int x = 24;
+
     // while (x < 42) {
     //     printf("%d\n", x);
-    //     x += 3;
+    //     x += 3
     // }
 
     int x = 24;
 
-    loop:
+loop:
     if (x >= 42) goto loop_end;
-
     printf("%d", x);
     printf("\n");
 
-    x += 3;
-
+    x = x + 3
     goto loop;
-
-    loop_end:
+loop_end:
 
     return 0;
 }

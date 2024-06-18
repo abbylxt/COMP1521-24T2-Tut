@@ -17,13 +17,10 @@ int main(void) {
 
     goto if_end;
     else_statement:
-
     y = x * x;
-    printf("%d", y);
-    printf("\n");
+    printf("%d\n", y);
 
     if_end:
 
     return 0;
-
 }
